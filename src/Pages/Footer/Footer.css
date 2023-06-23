@@ -1,0 +1,14 @@
+.ftr
+{
+    background-color: black;
+    color: white;
+    margin-top: -25px;
+    
+}
+.lists
+{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 35% 25% 35%;
+    text-align: center;
+}
