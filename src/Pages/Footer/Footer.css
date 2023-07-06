@@ -9,6 +9,21 @@
 {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 35% 25% 35%;
-    text-align: center;
+    grid-template-columns: 35% 30% 35%;
+    text-align: justify;
+    margin-left: 210px;
+}
+.subscribe
+{
+   padding:  5px 15px;
+   border-radius: 7px;
+   font-size: 17px;
+    margin-left: 16px;
+}
+.subscribe:hover
+{
+background-color: black;
+color: white;
+border: 1 px solid white;
+
 }

@@ -22,12 +22,13 @@ const Footer=() =>
                 <li>info@mysite.com</li>
                 <li>Pinterest</li>        
             </ul>
-            <p style={{paddingBottom:'0px'}}> Join mailing list and never miss an update</p>
+            <p style={{paddingBottom:'0px', fontSize:'15px', marginTop:'55px', marginLeft:'247px'}}> Join our mailing list and never miss an update</p>
         <form>
-            <label> Email*</label>
+            <label style={{float:'left', marginLeft:'246px'}}> Email*</label>
             <br></br>
-            <input type="text"></input>
-            <button>Subscribe Now</button>
+            <input type="text" style={{border: 'none', marginLeft:'-305px' ,backgroundColor:'black', borderBottom:' 1px solid white', padding: '5px',  outline: 'none', marginBottom:'55px', color:'white', width:'30%'}}></input>
+
+            <button className="subscribe">Subscribe Now</button>
         </form>
         </div>
         </>

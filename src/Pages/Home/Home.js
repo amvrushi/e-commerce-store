@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "../../Component/Navbar/navbar";
+import Navbar from "../../Component/Navbar/Navbar";
 import Shop from "../Shop/Shop";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import FAQ from "../FAQ/FAQ";
 
 const Home =() =>
 {
@@ -14,16 +15,16 @@ const Home =() =>
             </div>
             <div>
                 <Shop />
+                
             </div>
             <div>
                 <About />
             </div>
-            {/* <div>
-                <Contact />
-            </div> */}
+          
             <div>
                 <Footer />
             </div>
+          
         </>
     );
 }
