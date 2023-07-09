@@ -6,25 +6,26 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import FAQ from "../FAQ/FAQ";
 
-const Home =() =>
-{
-    return(
+
+const Home = () => {
+    return (
         <>
- <div>
+            <div>
                 <Navbar />
             </div>
             <div>
                 <Shop />
-                
+
             </div>
             <div>
                 <About />
             </div>
-          
+
             <div>
                 <Footer />
             </div>
-          
+
+
         </>
     );
 }
